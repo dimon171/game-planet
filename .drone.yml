@@ -6,11 +6,4 @@ steps:
 - name: test
   image: ubuntu
   commands:
-  - apt install build-essential checkinstall
-  - apt install libssl-dev
-  - wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-  - source /etc/profile
-  - nvm install 10.0
-  - nvm use 10.0
-  - node -v
-  - npm -v
+
