@@ -1,11 +1,15 @@
- 
 kind: pipeline
+type: docker
 name: default
-
+   #test1test2test3
 steps:
-  - name: prebuild
-    image: node:10
-    commands:
-      - npm install
-      - sudo npm run build
-      - npm run start
+- name: test
+  image: alpine
+  commands:
+  - apt install build-essential checkinstall
+  - apt install libssl-dev
+  - wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+  - source /etc/profile
+  - nvm install 10.0
+  - nvm use 10.0
+  - node -v
