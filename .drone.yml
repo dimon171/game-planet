@@ -1,10 +1,11 @@
+ 
 kind: pipeline
-type: docker
 name: default
-   #test1test2test31
+
 steps:
-- name: test
-  image: alpine
-  commands:
-  - echo hello
-  - echo world
+  - name: prebuild
+    image: node:10
+    commands:
+      - npm install
+      - npm run build
+      - npm run start
