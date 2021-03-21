@@ -190,6 +190,10 @@ a {
         padding: 5px;
         display: flex;
         align-items: center;
+        background-color: #FFCF88;
+        &:hover {
+            background: #fdd190;
+        }
     }
     &_gallery {
         background: #FFFFFF;
@@ -204,7 +208,7 @@ a {
         padding: 0;
         &:hover {
             color: #fff;
-            background: #4E372A;
+            background: $mustard;
         }
     }
     &_call {
@@ -220,7 +224,7 @@ a {
         padding: 0;
         &:hover {
             color: #fff;
-            background: #4E372A;
+            background: $mustard;
         }
     }
     &_order {

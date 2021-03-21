@@ -30,7 +30,7 @@
 
 .contacts-company {
     padding: 0 calc(50% - 144px);
-    color: $choco;
+    color: $text;
     @media screen and (min-width: $vtablet-width) {
         background: #FFFFFF;
         border-radius: 5px;
@@ -80,7 +80,7 @@
     position: relative;
     font-size: 16px;
     line-height: 18px;
-    color: $choco;
+    color: $text;
     opacity: 0.7;
     &::before {
         content: '';
@@ -116,7 +116,7 @@
 }
 
 .contacts-company__phone {
-    color: $choco;
+    color: $text;
     opacity: 0.7;
     font-size: 16px;
     line-height: 18px;
@@ -148,7 +148,7 @@
     background-color: $border;
     padding: 25px calc(50% - 144px);
     text-align: center;
-    color: $choco;
+    color: $text;
     @media screen and (min-width: $vtablet-width) {
         padding: 0;
         margin-top: 50px;
@@ -238,7 +238,7 @@
     font-weight: bold;
     font-size: 30px;
     line-height: 20px;
-    color: $choco;
+    color: $text;
     position: relative;
     display: block;
     font-family: Comfortaa, cursive;
