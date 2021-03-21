@@ -1,5 +1,5 @@
 // config used by server side only
-const dbHost = process.env.DB_HOST || '31.135.36.110';
+const dbHost = process.env.DB_HOST || '192.168.1.100';
 const dbPort = process.env.DB_PORT || 27017;
 const dbName = process.env.DB_NAME || 'shop';
 const dbUser = process.env.DB_USER || '';

@@ -19,7 +19,7 @@
 .header__top {
     height: 70px;
     transition: height .2s ease-in-out;
-    background: #FAF9F8;
+    background: #F6EEDF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +93,7 @@
     right: -14px;
     height: 26px;
     width: 26px;
-    background-color: $choco;
+    background-color: $text;
     color: #fff;
     line-height: 28px;
     font-size: 15px;
@@ -285,7 +285,7 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
-        color: $choco;
+        color: $text;
         position: relative;
         &:after {
             content: '';
@@ -319,6 +319,7 @@
     margin: 20px 16px 0;
     height: 33px;
     border-radius: 3px;
+    color: $text;
     @media (min-width: $tablet-width) {
         margin: 0;
     }
@@ -326,7 +327,7 @@
 
 .search-input {
     width: 100%;
-    color: #8C4219;
+    color: $text;
     font-size: 12px;
     -webkit-appearance: none;
     appearance: none;
