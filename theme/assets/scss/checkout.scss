@@ -1,5 +1,5 @@
 .checkout {
-    color: $choco;
+    color: $text;
     @media (min-width: $vtablet-width) {
         display: flex;
         flex-wrap: wrap;
@@ -32,7 +32,7 @@
 }
 
 .step {
-    background: #F2F1F1;
+    background: rgba(246, 238, 223, 0.23);
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -53,7 +53,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: $mustard;
+    background: $choco;
     border-radius: 5px;
     font-weight: bold;
     font-size: 12px;
@@ -95,7 +95,7 @@
 .checkout__order {
     @media (min-width: $vtablet-width) {
         width: 500px;
-        background: #F2F1F1;
+        background: rgba(246, 238, 223, 0.23);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -195,7 +195,7 @@
 }
 
 .delivery {
-    background: #F2F1F1;
+    background: rgba(246, 238, 223, 0.23);
     border-radius: 5px;
     padding: 45px 20px 25px;
     @media (min-width: $vtablet-width) {
@@ -250,7 +250,7 @@
     display: table;
     width: 100%;
     @media (min-width: $vtablet-width) {
-        background: #F2F1F1;
+        background: rgba(246, 238, 223, 0.23);
         border-radius: 5px;
         overflow: hidden;
     }
@@ -274,7 +274,7 @@
 }
 
 .order__item {
-    background: #F2F1F1;
+    background: rgba(246, 238, 223, 0.23);
     border-radius: 5px;
     padding: 20px 0 25px;
     font-weight: 600;
