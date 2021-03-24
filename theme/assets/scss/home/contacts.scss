@@ -11,6 +11,7 @@
 
 .contacts__title_content {
     margin-bottom: 20px;
+    color: $text;
     @media screen and (min-width: $vtablet-width) {
         width: 100%;
         margin-bottom: 30px;
