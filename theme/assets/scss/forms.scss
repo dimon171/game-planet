@@ -11,7 +11,7 @@
     background-color: transparent;
     box-shadow: none;
     &::placeholder {
-        color: $choco-light;
+        color: $text;
     }
     &_search {
         height: 33px;
