@@ -116,19 +116,19 @@
     }
     .rc-slider-track {
         height: 3px;
-        background-color: $text;
+        background-color: $choco;
     }
     .rc-slider-handle {
         width: 13px;
         height: 13px;
-        background: $text;
+        background: $choco;
         border: none;
         &:hover {
-            border-color: $text;
+            border-color: $choco;
         }
         &:active {
-            border-color: $text;
-            box-shadow: 0 0 5px $text;
+            border-color: $choco;
+            box-shadow: 0 0 5px $choco;
         }
     }
 }
