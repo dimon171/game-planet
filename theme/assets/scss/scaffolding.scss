@@ -168,7 +168,7 @@ a {
         @media screen and (max-width: $vtablet-width) {
             width: 147px;
             height: 61px;
-            border: 1px solid $mustard;
+            border: 1px solid $choco;
             background-color: transparent;
             color: $choco;
             font-weight: bold;
@@ -176,7 +176,7 @@ a {
             line-height: 18px;
             &:hover {
                 background-color: transparent;
-                color: $mustard;
+                color: $choco-light;
             }
         }
     }
@@ -224,7 +224,7 @@ a {
         padding: 0;
         &:hover {
             color: #fff;
-            background: $mustard;
+            background: $choco-light;
         }
     }
     &_order {
