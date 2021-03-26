@@ -190,9 +190,9 @@ a {
         padding: 5px;
         display: flex;
         align-items: center;
-        background-color: #FFCF88;
+        background-color: $choco;
         &:hover {
-            background: #fdd190;
+            background: $choco-light;
         }
     }
     &_gallery {
