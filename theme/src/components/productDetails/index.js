@@ -101,8 +101,6 @@ export default class ProductDetails extends React.Component {
 		this.setState({ isAllOptionsSelected: allOptionsSelected });
 	}
 
-	
-
 	render() {
 		const { product, settings, categories } = this.props;
 		const { selectedVariant, isAllOptionsSelected } = this.state;
@@ -114,7 +112,6 @@ export default class ProductDetails extends React.Component {
 				: selectedVariant
 				? selectedVariant.stock_quantity
 				: product.stock_quantity;
-
 
 		if (product) {
 			return (
@@ -161,7 +158,9 @@ export default class ProductDetails extends React.Component {
 							</div>
 						</div>
 					</section>
-
+					<section className="section-container product-description">
+						<Description description={product.description} />
+					</section>
 					{themeSettings.show_viewed_products && (
 						<ViewedProducts
 							settings={settings}
@@ -182,10 +181,6 @@ export default class ProductDetails extends React.Component {
 						ids={product.related_product_ids}
 						limit={10}
 					/>
-
-					<section className="section-container product-description">
-						<Description description={product.description} />
-					</section>
 				</Fragment>
 			);
 		}
