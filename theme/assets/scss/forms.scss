@@ -141,7 +141,7 @@
 
 .attribute-checked::after,
 .input__checkbox_checked::after {
-    background: $choco;
+    background: $base-color;
     color: #fff;
     content: "\2713";
     font-family: Arial, sans-serif;
