@@ -44,7 +44,7 @@ const IndexContainer = props => {
 					</div>
 				</section>
 			)}
-			<section className="advantages section-container">
+			{/* <section className="advantages section-container">
 				<h2 className="advantages__title section__title">
 					Advantages
 				</h2>
@@ -56,12 +56,10 @@ const IndexContainer = props => {
 						</div>
 					))}
 				</div>
-			</section>
+			</section> */}
 
 			<section className="categories section-container">
-				<h2 className="categories__title section__title">
-					Categories
-				</h2>
+				<h2 className="categories__title section__title">Categories</h2>
 
 				<CategoriesGallery categories={categories} />
 			</section>
@@ -98,9 +96,7 @@ const IndexContainer = props => {
 			)}
 
 			<section className="contacts section-container">
-				<h2 className="contacts__title_content section__title">
-					Contacts
-				</h2>
+				<h2 className="contacts__title_content section__title">Contacts</h2>
 				<div className="contacts__content">
 					<LazyLoad>
 						<HomeContacts settings={settings} />
