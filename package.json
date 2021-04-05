@@ -32,6 +32,10 @@
     "url": "https://github.com/cezerin/cezerin"
   },
   "scripts": {
+    "start:fuck" :"npm run build:watch 
+    npm run start-api
+    npm run start:dev"
+    "start:dev": "nodemon -r esm dist/store/server/index.js",
     "setup": "node -r esm src/api/server/setup.js",
     "compile": "babel src/store -d dist/store --presets react --plugins transform-class-properties --quiet",
     "compile:watch": "concurrently -n storeWatcher,themeWatcher \"babel src/store -d dist/store --presets react --plugins transform-class-properties --watch\" \"babel theme/src -d theme/dist --presets react --plugins transform-class-properties --watch\"",
@@ -148,5 +152,8 @@
   "engines": {
     "node": "^8.0.0",
     "npm": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
