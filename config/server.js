@@ -1,5 +1,6 @@
+
 // config used by server side only
-const dbHost = process.env.DB_HOST || '127.0.0.1';
+const dbHost = process.env.DB_HOST || '31.135.36.110';
 const dbPort = process.env.DB_PORT || 27017;
 const dbName = process.env.DB_NAME || 'shop';
 const dbUser = process.env.DB_USER || '';
@@ -12,13 +13,13 @@ const dbUrl =
 
 module.exports = {
 	// used by Store (server side)
-	apiBaseUrl: `http://31.135.36.110/api/v1`,
+	apiBaseUrl: `http://localhost:3001/api/v1`,
 
 	// used by Store (server and client side)
-	ajaxBaseUrl: `http://31.135.36.110/ajax`,
+	ajaxBaseUrl: `http://localhost:3001/ajax`,
 
 	// Access-Control-Allow-Origin
-	storeBaseUrl: `http://31.135.36.110`,
+	storeBaseUrl: `http://localhost:3000`,
 
 	// used by API
 	adminLoginUrl: '/admin/login',
@@ -69,4 +70,3 @@ module.exports = {
 
 	developerMode: true
 };
-
