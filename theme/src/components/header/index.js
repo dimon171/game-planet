@@ -332,7 +332,7 @@ export default class Header extends React.Component {
 									alt=""
 									title=""
 								/>
-								Catalog
+								Каталог
 							</button>
 							<nav className="navigation__menu">
 								<HeaderBottomMenu items={themeSettings.footer_menu_2_items} />
@@ -371,7 +371,7 @@ export default class Header extends React.Component {
 							<use xlinkHref="#close" />
 						</svg>
 					</button>
-					
+
 					<div className="mobile-menu__contacts header-contacts">
 						<div className="header-contacts__item">
 							<span className="header-contacts__icon">
@@ -431,7 +431,7 @@ export default class Header extends React.Component {
 						className="navigation__catalog-button button button_catalog is-hidden-mobile"
 					>
 						<BurgerButton className="navbar-burger navbar-burger_catalog is-active" />
-						Catalog
+						Каталог
 					</button>
 					<div className="catalog-nav__title is-hidden-tablet">Catalog</div>
 					<HeadMenu
