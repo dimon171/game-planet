@@ -59,7 +59,7 @@ const IndexContainer = props => {
 			</section> */}
 
 			<section className="categories section-container">
-				<h2 className="categories__title section__title">Categories</h2>
+				<h2 className="categories__title section__title">Категории</h2>
 
 				<CategoriesGallery categories={categories} />
 			</section>

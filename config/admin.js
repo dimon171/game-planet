@@ -6,4 +6,3 @@ module.exports = {
 	apiWebSocketUrl: 'ws://31.135.36.110',
 	developerMode: true
 };
-

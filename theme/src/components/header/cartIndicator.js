@@ -32,9 +32,8 @@ export default class CartIndicator extends React.PureComponent {
 	render() {
 		const { cart, onClick, cartIsActive, settings } = this.props;
 
-		
 		if (cart) {
-			this.setState({ subtotal: cart.subtotal});
+			this.setState({ subtotal: cart.subtotal });
 			if (Lscache.get('auth_data')) {
 				this.setState({ subtotal: Math.ceil(cart.subtotal * 0.7) });
 			}
@@ -47,7 +46,7 @@ export default class CartIndicator extends React.PureComponent {
 					<CartCount cart={cart} />
 				</span>
 				<div className="cart__info" onClick={onClick}>
-					Cart Total:{' '}
+					Корзина:{' '}
 					<b className="cart__info_total">
 						{this.state.subtotal} {settings.currency_symbol}
 					</b>

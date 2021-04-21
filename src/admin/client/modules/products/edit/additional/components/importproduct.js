@@ -108,6 +108,7 @@ class ProductImport extends React.Component {
 				stock_quantity: null,
 				regular_price: null,
 				name: null,
+				description: null, //
 				sku: null,
 				path: null
 			};
@@ -119,6 +120,7 @@ class ProductImport extends React.Component {
 					'sub_category_name'
 				];
 				productDraft.name = this.state.product_items[i]['name'];
+				productDraft.description = this.state.product_items[i]['description']; //
 				productDraft.stock_quantity = this.state.product_items[i][
 					'stock_quantity'
 				];
@@ -132,6 +134,7 @@ class ProductImport extends React.Component {
 				if (
 					productDraft.category_name !== '' &&
 					productDraft.name !== '' &&
+					productDraft.description !== '' && //
 					productDraft.stock_quantity !== '' &&
 					productDraft.regular_price !== '' &&
 					productDraft.sku !== '' &&

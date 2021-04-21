@@ -31,7 +31,7 @@ class HomeContacts extends Component {
 						{themeSettings.footer_contacts[1].text}
 					</div>
 					<div className="contacts-company__worktime contacts-worktime">
-						<h3 className="contacts-worktime__title">Hours</h3>
+						<h3 className="contacts-worktime__title">Часы</h3>
 						<div className="contacts-worktime__table">
 							<div className="contacts-worktime__row">
 								<div className="contacts-worktime__col">Monday-Saturday:</div>
@@ -52,7 +52,7 @@ class HomeContacts extends Component {
 							</a>
 						</div>
 					</div>
-				</div>				
+				</div>
 			</Fragment>
 		);
 	}
